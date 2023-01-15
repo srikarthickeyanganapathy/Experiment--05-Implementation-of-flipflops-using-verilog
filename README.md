@@ -113,7 +113,7 @@ Q(t+1)=T′Q(t)+TQ(t)′
 ![OUTPUT](./flipflopjk/Screenshot%20(57).png)
 ## SR FLIPFLOP PROGRAM:
 ![OUTPUT](./flipflopsr/Screenshot%20(53).png)
-## T FLIPFLOP DIAGRAM:
+## T FLIPFLOP PROGRAM:
 ![OUTPUT](./flipflopT/Screenshot%20(63).png)
 ```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
@@ -141,3 +141,4 @@ RegisterNumber:  22008592
 ![TIMING DIAGRAM](./flipflopT/Screenshot%20(65).png)
 
 ### RESULTS :
+Thus To implement all the flipflops using verilog and validating their functionality using their functional tables is verified using quartus software.
