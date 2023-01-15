@@ -141,3 +141,4 @@ RegisterNumber:  22008592
 ![TIMING DIAGRAM](./flipflopT/Screenshot%20(65).png)
 
 ### RESULTS :
+Thus To implement all the flipflops using verilog and validating their functionality using their functional tables is verified using quartus software.
