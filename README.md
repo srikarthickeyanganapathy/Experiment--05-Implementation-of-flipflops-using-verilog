@@ -1,9 +1,12 @@
 # Experiment--05-Implementation-of-flipflops-using-verilog
-### AIM: To implement all the flipflops using verilog and validating their functionality using their functional tables
-### HARDWARE REQUIRED:  – PC, Cyclone II , USB flasher
-### SOFTWARE REQUIRED:   Quartus prime
-### THEORY 
-SR Flip-Flop
+## AIM: 
+To implement all the flipflops using verilog and validating their functionality using their functional tables
+## HARDWARE REQUIRED:  –
+PC, Cyclone II , USB flasher
+### SOFTWARE REQUIRED:   
+Quartus prime
+## THEORY 
+### SR Flip-Flop
 SR flip-flop operates with only positive clock transitions or negative clock transitions. Whereas, SR latch operates with enable signal. The circuit diagram of SR flip-flop is shown in the following figure.
 
 ![image](https://user-images.githubusercontent.com/36288975/167910294-bb550548-b1dc-4cba-9044-31d9037d476b.png)
@@ -101,40 +104,40 @@ From the above characteristic table, we can directly write the next state equati
 Q(t+1)=T′Q(t)+TQ(t)′
 ⇒Q(t+1)=T⊕Q(t)
 
-### Procedure
-/* write all the steps invloved */
+# Procedure:
 
-
-
-### PROGRAM 
-/*
+# PROGRAM :
+## D FLIPFLOP PROGRAM:
+![OUTPUT](./flipflopD/Screenshot%20(60).png)
+## JK FLIPFLOP PROGRAM:
+![OUTPUT](./flipflopjk/Screenshot%20(57).png)
+## SR FLIPFLOP PROGRAM:
+![OUTPUT](./flipflopsr/Screenshot%20(53).png)
+## T FLIPFLOP DIAGRAM:
+![OUTPUT](./flipflopT/Screenshot%20(63).png)
+```
 Program for flipflops  and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
-*/
+Developed by: Sri Karthickeyan Ganapathy
+RegisterNumber:  22008592
+```
+# RTL LOGIC FOR FLIPFLOPS 
+## D FLIPFLOP RTL:
+![RTL](./flipflopD/Screenshot%20(61).png)
+## JK FLIPFLOP RTL:
+![RTL](./flipflopjk/Screenshot%20(58).png)
+## SR FLIPFLOP RTL:
+![RTL](./flipflopsr/Screenshot%20(54).png)
+## T FLIPFLOP RTL:
+![RTL](./flipflopT/Screenshot%20(64).png)
 
+# TIMING DIGRAMS FOR FLIP FLOPS 
+## D FLIPFLOP TIMING DIAGRAMS:
+![TIMING DIAGRAM](./flipflopD/Screenshot%20(62).png)
+## JK FLIPFLOP TIMING DIAGRAMS:
+![TIMING DIAGRAM](./flipflopjk/Screenshot%20(59).png)
+## SR FLIPFLOP TIMING DIAGRAM:
+![TIMING DIAGRAM](./flipflopsr/Screenshot%20(56).png)
+## T FLIPFLOP TIMING DIAGRAM:
+![TIMING DIAGRAM](./flipflopT/Screenshot%20(65).png)
 
-
-
-
-
-### RTL LOGIC FOR FLIPFLOPS 
-
-
-
-
-
-
-
-
-
-### TIMING DIGRAMS FOR FLIP FLOPS 
-
-
-
-
-
-
-
-
-### RESULTS 
+### RESULTS :
